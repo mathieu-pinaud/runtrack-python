@@ -10,5 +10,4 @@ def my_draw_rec(width, height):
             else:
                 print(' ', end='')
         print('|')
-print('caca')
 my_draw_rec(w, h)
