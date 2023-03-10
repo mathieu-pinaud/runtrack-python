@@ -25,6 +25,8 @@ def my_cript(str):
                 j += 1
             res += alphabet[j + 1]
             flag = 1
+        elif (str[i] == 'z' and flag == 0):
+            res += 'a'
         else:
             res += str[i]
         i += 1
