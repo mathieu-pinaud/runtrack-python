@@ -1,5 +1,4 @@
 w = int(input("donnez la largeur "))
-h = int(input("donnez la longueur "))
 
 def my_draw_rec(width):
     for i in range(width):
